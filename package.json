@@ -9,8 +9,10 @@
     "lint": "eslint . --ext .js,.ts,.jsx,.tsx",
     "format": "prettier --write .",
     "preview": "vite preview",
-    "prepare": "husky"
+    "prepare": "husky",
+    "test": "echo \"No tests yet\""
   },
+  
   "lint-staged": {
     "src/**/*.(ts|tsx|js|jsx)": [
       "prettier --write"

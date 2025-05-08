@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col">
+                         <div className="min-h-screen bg-gray-100 flex flex-col">
       <Header />
       <main className="flex-grow flex items-center justify-center px-4">
         <div className="text-center">
